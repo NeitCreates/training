@@ -6,3 +6,7 @@ data structures and algorythms
 
 Projects to work on:
 Download audio from youtube
+Quiz game
+	txt file to get questions from, keep the score, print the score in the end. highscore file maybe? set number of questions in the beginning.
+	random questions from a file, json maybe. write question as a function. use import random for randomness? 
+trashpickr??
