@@ -5,6 +5,7 @@ if wannaplay != "yes":
 	exit()
 
 print("Ok then! I ask questions, you answer them\n")
+# num_of_questions = input("Enter the number of questions you'd like to answer")
 
 points = 0
 
@@ -36,18 +37,25 @@ if q1 == "predator":
 else:
 	print("Wrong! You gain only eternal shame.\n")
 
-q1 = input("What was the first Marvel Cinemati Uneverse movie?\n").lower()
+q1 = input("What was the first Marvel Cinematic Uneverse movie?\n").lower()
 if q1 == "iron man":
 	print("Correct! You gained an infinity stone point.\n")
 	points += 1
 else:
 	print("Wrong! You gain someone's kidney stone.\n")
 
-print(f"That's it for questions. Your total score is {points} points. Good job!")
+
+score = points / 5
+
+if score == 1:
+	print(f"That's it for questions. Your total score is {points} points. Good job, you're a movie nerd!")
+elif 0.4 <= score <= 0.8:
+	print(f"That's it for questions. Your total score is {points} points. Not bad, train more, you'll be the best there ever was!")
+elif score <= 0.4:
+	print(f"That's it for questions. Your total score is {points} points. Pretty pathetic honestly. Go watch a movie or something.")
 
 
 '''
-add different points comment regarding the number of correct answers
 add a table of some type
 remake question into function
 add high-score system
