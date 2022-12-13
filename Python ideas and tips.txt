@@ -1,0 +1,8 @@
+Python ideas and tips
+
+with statement to open file
+comprehensions ??
+data structures and algorythms
+
+Projects to work on:
+Download audio from youtube
