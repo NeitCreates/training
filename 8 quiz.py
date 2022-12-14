@@ -5,7 +5,7 @@ if wannaplay != "yes":
 	exit()
 
 print("Ok then! I ask questions, you answer them\n")
-# num_of_questions = input("Enter the number of questions you'd like to answer")
+# num_of_questions = input("Enter the number of questions you'd like to get")
 
 points = 0
 

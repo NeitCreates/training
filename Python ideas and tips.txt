@@ -3,8 +3,9 @@ Python ideas and tips
 with statement to open file
 comprehensions ??
 data structures and algorythms
+use import re to split with multiple delimeters
 
-Projects to work on:
+Project ideas:
 Download audio from youtube
 Quiz game
 	txt file to get questions from, keep the score, print the score in the end. highscore file maybe? set number of questions in the beginning.
@@ -12,6 +13,6 @@ Quiz game
 trashpickr??
 
 
-projects to work on/modify:
-quiz
+projects to modify:
+quizs
 class 6
