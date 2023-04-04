@@ -4,6 +4,8 @@ with statement to open file
 comprehensions ??
 data structures and algorythms
 use import re to split with multiple delimeters
+can print lists as (*list) to show the data only
+a = a [::-1] - to reverse a line or a string
 
 Project ideas:
 Download audio from youtube
@@ -11,6 +13,7 @@ Quiz game
 	txt file to get questions from, keep the score, print the score in the end. highscore file maybe? set number of questions in the beginning.
 	random questions from a file, json maybe. write question as a function. use import random for randomness? 
 trashpickr??
+music training thing - generate progressions, note patterns etc. - root note, chord quality, inversion, root string. asks how many chords to generate. aim to play with metronome. then add drop voivcings (difficult with inversions, do not always work)
 
 
 projects to modify:
